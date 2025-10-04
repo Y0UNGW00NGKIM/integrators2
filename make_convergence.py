@@ -3,7 +3,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 from math import pi, gamma
 
-outdir = Path(sys.argv[1] if len(sys.argv)>1 else "result")
+outdir = Path(sys.argv[1] if len(sys.argv)>1 else "results")
 
 def load(d):
     xs,v,se=[],[],[]
